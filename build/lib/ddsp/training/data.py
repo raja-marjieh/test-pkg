@@ -50,7 +50,7 @@ class DataProvider(object):
 
 
 class TfdsProvider(DataProvider):
-  """Base class for reading datasets from TensorFlow Datasets (TFDS)."""
+  """Base class for reading datasets from tensorflow Datasets (TFDS)."""
 
   def __init__(self, name, split, data_dir):
     """TfdsProvider constructor.
