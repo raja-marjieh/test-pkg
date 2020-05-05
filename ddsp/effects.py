@@ -19,7 +19,7 @@ from ddsp import core
 from ddsp import processors
 from ddsp import synths
 import gin
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 tf_float32 = core.tf_float32
 

@@ -17,7 +17,7 @@
 
 from absl.testing import parameterized
 from ddsp import effects
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 
 class ReverbTest(parameterized.TestCase, tf.test.TestCase):

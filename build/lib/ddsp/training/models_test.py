@@ -21,7 +21,7 @@ from ddsp.training import models
 import gin
 import numpy as np
 import pkg_resources
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 GIN_PATH = pkg_resources.resource_filename(__name__, 'gin')
 gin.add_config_file_search_path(GIN_PATH)

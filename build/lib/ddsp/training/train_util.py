@@ -20,7 +20,7 @@ import time
 
 from absl import logging
 import gin
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 
 def get_strategy(tpu='', gpus=None):

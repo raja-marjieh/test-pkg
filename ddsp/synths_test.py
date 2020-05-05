@@ -16,7 +16,7 @@
 """Tests for ddsp.synths."""
 
 from ddsp import synths
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 
 class AdditiveTest(tf.test.TestCase):

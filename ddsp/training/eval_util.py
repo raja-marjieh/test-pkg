@@ -26,7 +26,7 @@ import gin
 import librosa
 import matplotlib.pyplot as plt
 import numpy as np
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 # Global values for evaluation.
 MIN_F0_CONFIDENCE = 0.85

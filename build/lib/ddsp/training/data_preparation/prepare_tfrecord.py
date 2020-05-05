@@ -28,7 +28,7 @@ ddsp_prepare_tfrecord \
 from absl import app
 from absl import flags
 from ddsp.training.data_preparation.prepare_tfrecord_lib import prepare_tfrecord
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 FLAGS = flags.FLAGS
 

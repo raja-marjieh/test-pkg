@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from pydub import AudioSegment
 from scipy.io import wavfile
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 from google.colab import files
 from google.colab import output

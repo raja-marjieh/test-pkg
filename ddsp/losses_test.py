@@ -17,7 +17,7 @@
 
 from ddsp import losses
 import numpy as np
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 
 class SpectralLossTest(tf.test.TestCase):

@@ -20,7 +20,7 @@ from ddsp.core import tf_float32
 import gin
 import librosa
 import numpy as np
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 _CREPE_SAMPLE_RATE = 16000
 _CREPE_FRAME_SIZE = 1024

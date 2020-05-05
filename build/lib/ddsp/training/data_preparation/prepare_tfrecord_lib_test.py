@@ -25,7 +25,7 @@ from ddsp.spectral_ops import _CREPE_SAMPLE_RATE
 from ddsp.training.data_preparation import prepare_tfrecord_lib
 import numpy as np
 import scipy.io.wavfile
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 
 class ProcessTaskBeamTest(parameterized.TestCase):

@@ -18,7 +18,7 @@
 import copy
 import ddsp
 import gin
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 hz_to_midi = ddsp.core.hz_to_midi
 F0_RANGE = ddsp.spectral_ops.F0_RANGE

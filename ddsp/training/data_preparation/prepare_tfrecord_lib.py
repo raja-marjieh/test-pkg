@@ -23,7 +23,7 @@ from ddsp.spectral_ops import compute_loudness
 from ddsp.spectral_ops import LD_RANGE
 import numpy as np
 import pydub
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 
 

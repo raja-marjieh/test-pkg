@@ -70,7 +70,7 @@ from ddsp.training import models
 from ddsp.training import train_util
 import gin
 import pkg_resources
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 FLAGS = flags.FLAGS
 

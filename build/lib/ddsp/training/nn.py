@@ -16,7 +16,7 @@
 """Library of neural network functions."""
 
 import gin
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 tfkl = tf.keras.layers
 

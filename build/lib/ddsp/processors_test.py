@@ -21,7 +21,7 @@ from ddsp import effects
 from ddsp import processors
 from ddsp import synths
 import numpy as np
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 
 class ProcessorGroupTest(parameterized.TestCase, tf.test.TestCase):

@@ -17,7 +17,7 @@
 
 from ddsp.training import nn
 import gin
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 tfkl = tf.keras.layers
 

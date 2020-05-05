@@ -22,7 +22,7 @@ from ddsp import spectral_ops
 from ddsp.core import tf_float32
 
 import gin
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 tfkl = tf.keras.layers
 

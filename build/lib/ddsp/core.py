@@ -25,7 +25,7 @@ from typing import Any, Dict, Text, TypeVar
 import gin
 import numpy as np
 from scipy import fftpack
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 Number = TypeVar('Number', int, float, np.ndarray, tf.Tensor)
 
